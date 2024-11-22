@@ -1,0 +1,319 @@
+
+body {
+    height: 800px;
+    background-color: rgba(3, 37, 116, 0.397);
+}
+
+
+.icon1 {
+   
+    /* width: 100px; */
+    /* height: 100px; */
+    /* border-radius: 50%; */
+  /* font-size: 100px; */
+  left: 0;
+  top: 0;
+  /* background-color: blue; */
+    position: absolute;
+    animation-name: icone1;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-fill-mode: both;
+    animation-timing-function:ease-out;
+}
+
+@keyframes icone1 {
+    0% {
+        /* color: rgb(233, 233, 227); */
+    }
+    50% {
+        /* color: rgb(241, 218, 10); */
+    }
+    100% {
+        /* color: rgb(0, 60, 255); */
+        transform: translateX(calc(98vw - 100%));
+    }
+}
+.line1 {
+    width: 100%;
+    /* height: 2px; */
+    background-color: rgb(141, 141, 139);
+    margin-top: 90px;
+    border-style: dashed;
+}
+
+.icon2 {
+    /* width: 100px;
+    height: 100px;
+    border-radius: 50%; */
+    /* font-size: 100px; */
+    /* background-color: blue; */
+      position: absolute;
+      /* transform: translate(1200px,0px); */
+      animation-name: icone2;
+      animation-duration: 2s;
+      animation-delay: 4s;
+      animation-fill-mode:both;
+      animation-timing-function:ease-out;
+      /* animation-direction: reverse; */
+      transform: rotate(180 deg);
+      top: 95px;
+      right: 0;
+  
+  }
+  
+  @keyframes icone2 {
+      0% {
+
+          /* color: rgb(105, 170, 245); */
+      }
+      50% {
+          /* color: rgb(147, 165, 247); */
+          /* right: 0; */
+      }
+      100% {
+      /* color: rgb(220, 222, 231); */
+      /* right: 0; */
+      transform: translateX(calc(-98vw + 100%));
+
+      }
+  }
+.line2 {
+    width: 100%;
+    /* height: 8px; */
+    background-color: rgb(150, 150, 148);
+    margin-top: 90px;
+    border-style: dashed;
+}
+
+ 
+.icon3 {
+    /* width: 100px;
+    height: 100px;
+    border-radius: 50%; */
+  /* font-size: 100px; */
+  left: 0;
+  top: 188px;
+  /* background-color: blue; */
+    position: absolute;
+    animation-name: icone3;
+    animation-duration: 2s;
+    animation-delay: 6s;
+    animation-fill-mode: both;
+    animation-timing-function:ease-out;
+
+}
+
+@keyframes icone3 {
+    0% {
+        /* color: rgb(233, 233, 227); */
+    }
+    50% {
+        /* color: rgb(241, 218, 10); */
+    }
+    100% {
+        /* color: rgb(0, 60, 255); */
+        transform: translateX(calc(98vw - 100%));
+    }
+}
+
+.line3 {
+    width: 100%;
+    /* height: 8px; */
+    background-color: rgb(181, 182, 175);
+    margin-top: 90px;
+    border-style: dashed;
+}
+
+.icon4 {
+    /* background-color: blue; */
+      position: absolute;
+      /* transform: translate(1200px,0px); */
+      animation-name: icone4;
+      animation-duration: 2s;
+      animation-delay: 8s;
+      animation-fill-mode:both;
+      animation-timing-function:ease-out;
+      /* animation-direction: reverse; */
+      top: 285px;
+      right: 0;
+  
+  }
+  
+  @keyframes icone4 {
+      0% {
+
+          /* color: rgb(105, 170, 245); */
+      }
+      50% {
+          /* color: rgb(147, 165, 247); */
+          /* right: 0; */
+      }
+      100% {
+      /* color: rgb(220, 222, 231); */
+      /* right: 0; */
+      transform: translateX(calc(-98vw + 100%));
+
+      }
+  }
+
+  .line4 {
+    width: 100%;
+    /* height: 8px; */
+    background-color: rgb(148, 146, 146);
+    margin-top: 90px;
+    border-style: dashed dashed dashed;
+}
+  
+
+  .icon5 {
+    /* width: 100px;
+    height: 100px;
+    border-radius: 50%; */
+  /* font-size: 100px; */
+  left: 0;
+  top: 378px;
+  /* background-color: blue; */
+    position: absolute;
+    animation-name: icone5;
+    animation-duration: 2s;
+    animation-delay: 10s;
+    animation-fill-mode: both;
+    animation-timing-function:ease-out;
+
+}
+@keyframes icone5 {
+    0% {
+        /* color: rgb(233, 233, 227); */
+    }
+    50% {
+        /* color: rgb(241, 218, 10); */
+    }
+    100% {
+        /* color: rgb(0, 60, 255); */
+        transform: translateX(calc(98vw - 100%));
+    }
+}
+.line5 {
+    width: 100%;
+    /* height: 8px; */
+    background-color: rgb(148, 146, 146);
+    margin-top: 90px;
+    border-style: dashed;
+}
+  
+.icon6 {
+    /* width: 100px;
+    height: 100px;
+    border-radius: 50%; */
+    /* font-size: 100px; */
+    /* background-color: blue; */
+      position: absolute;
+      /* transform: translate(1200px,0px); */
+      animation-name: icone6;
+      animation-duration: 2s;
+      animation-delay: 12s;
+      animation-fill-mode:both;
+      animation-timing-function:ease-out;
+      /* animation-direction: reverse; */
+      top: 475px;
+      right: 0;
+  
+  }
+  
+  @keyframes icone6 {
+      0% {
+
+          /* color: rgb(105, 170, 245); */
+      }
+      50% {
+          /* color: rgb(147, 165, 247); */
+          /* right: 0; */
+      }
+      100% {
+      /* color: rgb(220, 222, 231); */
+      /* right: 0; */
+      transform: translateX(calc(-98vw + 100%));
+
+      }
+  }
+  .line6 {
+    width: 100%;
+    /* height: 8px; */
+    background-color: rgb(148, 146, 146);
+    margin-top: 90px;
+    border-style: dashed;
+}
+  
+  
+  .icon7 {
+    /* width: 100px;
+    height: 100px;
+    border-radius: 50%; */
+  /* font-size: 100px; */
+  left: 0;
+  top: 568px;
+  /* background-color: blue; */
+    position: absolute;
+    animation-name: icone7;
+    animation-duration: 2s;
+    animation-delay: 14s;
+    animation-fill-mode: both;
+    animation-timing-function:ease-out;
+
+}
+@keyframes icone7 {
+    0% {
+        /* color: rgb(233, 233, 227); */
+    }
+    50% {
+        /* color: rgb(241, 218, 10); */
+    }
+    100% {
+        /* color: rgb(0, 60, 255); */
+        transform: translateX(calc(98vw - 100%));
+    }
+}
+
+.line7 {
+    width: 100%;
+    /* height: 8px; */
+    background-color: rgb(148, 146, 146);
+    margin-top: 90px;
+    border-style: dashed;
+}
+.icon8 {
+    /* width: 100px;
+    height: 100px;
+    border-radius: 50%; */
+    /* font-size: 100px; */
+    /* background-color: blue; */
+      position: absolute;
+      /* transform: translate(1200px,0px); */
+      animation-name: icone8;
+      animation-duration: 2s;
+      animation-delay: 16s;
+      animation-fill-mode:both;
+      animation-timing-function:ease-out;
+      /* animation-direction: reverse; */
+      top: 665px;
+      right: 0;
+  
+  }
+  
+  @keyframes icone8 {
+      0% {
+
+          /* color: rgb(105, 170, 245); */
+      }
+      50% {
+          /* color: rgb(147, 165, 247); */
+          /* right: 0; */
+      }
+      100% {
+      /* color: rgb(220, 222, 231); */
+      /* right: 0; */
+      transform: translateX(calc(-98vw + 100%));
+
+      }
+  }
